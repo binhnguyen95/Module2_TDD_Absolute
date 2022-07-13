@@ -55,5 +55,4 @@ public class NextDayCalculatorTest {
         assertEquals(expected, result);
     }
 
-
 }
