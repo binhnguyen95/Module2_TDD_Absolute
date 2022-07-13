@@ -13,7 +13,7 @@ public class NextDayCalculatorTest {
         int day = 1;
         int month = 1;
         int year = 2018;
-        String expected = "1/1/2018";
+        String expected = "2/1/2018";
 
         String result = NextDayCalculator.getNextDay(day, month, year);
         assertEquals(expected, result);
