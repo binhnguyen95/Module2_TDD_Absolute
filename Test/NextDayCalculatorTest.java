@@ -31,5 +31,17 @@ public class NextDayCalculatorTest {
         assertEquals(expected, result);
     }
 
+    @Test
+    @DisplayName("Testing 30/4/2018")
+    void nextDayOf30_4_2018() {
+        int day = 30;
+        int month = 4;
+        int year = 2018;
+        String expected = "1/5/2018";
+
+        String result = NextDayCalculator.getNextDay(day, month, year);
+        assertEquals(expected, result);
+    }
+
 
 }
